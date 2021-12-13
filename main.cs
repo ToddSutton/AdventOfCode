@@ -2,11 +2,11 @@
 namespace AdventOfCode {
     public partial class AdventOfCode {
         public static void Main() {
-            current = System.IO.Path.GetDirectoryName(Application.ExecutablePath);
-            //Day01.D01("D:/Desktop/AdventOfCode/d01");
-            //Day02.D02("D:/Desktop/AdventOfCode/d02");
-            Day03.D03(current + "d03");
-            //Day09.D09("D:/Desktop/AdventOfCode/d09");
+            string inputDir = "D:/Desktop/AdventOfCode/";
+            //Day01.D01(inputDir + "d01");
+            //Day02.D02(inputDir + "d02");
+            Day03.D03(inputDir + "d03");
+            //Day09.D09(inputDir + "d09");
         }
     }
 }
