@@ -5,7 +5,8 @@ namespace AdventOfCode {
             string inputDir = "D:/Desktop/AdventOfCode/";
             //Day01.D01(inputDir + "d01");
             //Day02.D02(inputDir + "d02");
-            Day03.D03(inputDir + "d03");
+            //Day03.D03(inputDir + "d03");
+            Day08.D08(inputDir + "d08");
             //Day09.D09(inputDir + "d09");
         }
     }
